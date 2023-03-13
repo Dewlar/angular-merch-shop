@@ -1,0 +1,31 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "semi": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "trailingComma": "es5",
+  "bracketSameLine": true,
+  "printWidth": 120,
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": ["**/*.html", "**/*.css", "**/*.scss"],
+      "options": {
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ["**/*.component.html"],
+      "options": {
+        "singleQuote": false,
+        "parser": "angular",
+        "proseWrap": "preserve",
+        "singleAttributePerLine": true,
+        "bracketSameLine": false,
+        "embeddedLanguageFormatting": "off"
+      }
+    }
+  ]
+}

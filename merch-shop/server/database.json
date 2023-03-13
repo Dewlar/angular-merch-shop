@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "tasks": [
+    {
+      "label": "sdf",
+      "description": "sdf",
+      "category": "main",
+      "done": false,
+      "id": 1
+    },
+    {
+      "label": "astanavista baby",
+      "description": "defend all of people\nand all of machines",
+      "category": "work",
+      "done": false,
+      "id": 2
+    }
+  ]
+}
